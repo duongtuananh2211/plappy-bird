@@ -1,2 +1,3 @@
 const background = new Background();
-const game = new Game();
+const bird = new Bird();
+const game = new Game(bird, background);
